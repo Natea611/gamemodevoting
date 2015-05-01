@@ -11,3 +11,4 @@ timer.Create("GMSwitch", 1200, 0, function()
 	RunConsoleCommand("ulx","votegm", "Pick a gamemode to play next", "prop_hunt", "hideandseek")
 end)
                                                    ^ title              ^ gamemodes    ^                                                               
+To install, place the gamemode.lua file in ulx>modules>sh AND the gamemodevote.lua in lua>autorun>server and you are good to go
